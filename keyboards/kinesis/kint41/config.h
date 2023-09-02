@@ -23,3 +23,7 @@
 
 // in clock cycles
 #define GPIO_INPUT_PIN_DELAY 0
+
+// Neutralize left alt
+#define DUMMY_MOD_NEUTRALIZER_KEYCODE KC_RIGHT_CTRL
+#define MODS_TO_NEUTRALIZE { MOD_BIT(KC_LEFT_ALT) }
