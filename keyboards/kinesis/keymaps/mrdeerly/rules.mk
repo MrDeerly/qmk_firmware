@@ -1,3 +1,7 @@
 BOOTMAGIC_ENABLE = no       # Enable Bootmagic Lite
-COMMAND_ENABLE = yes
 NKRO_ENABLE = yes
+
+TAP_DANCE_ENABLE = yes
+
+UNICODE_COMMON = yes
+UNICODE_ENABLE = yes
